@@ -10,7 +10,7 @@
 
 <body>
     <!--div tag changed for semantic element haeder-->
-    <header class="header">
+    <header>
         <!--span tag changed for semantic element mark-->
         <h1>Hori<mark class="seo">seo</mark>n</h1>
         <!--div tag changed for semantic element nav-->
@@ -28,16 +28,16 @@
             </ul>
         </nav>
     </header>
-        <!--div tag changed for semantic element figure, added link to the hero image directly in the HTML instead of CSS in order to improve the accessibility of the website with the alt attribute, added figcaption tag to include more detailed info of the image-->
-    <figure class="hero">
+        <!--div tag changed for semantic element figure, added link to the hero image directly in the HTML instead of CSS in order to improve the accessibility of the website with the alt attribute-->
+    <figure>
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="People in an office space having a digital marketing meeting"> 
-        <figcaption>Four people in an office space having a digital marketing meeting around a table and reading some sheets</figcaption>
     </figure>
     <!--div tag changed for semantic element main-->
-    <main class="content">
+    <main>
         <!--div tag changed for semantic element section, added alt attribute to improve the accessibility of the website-->
         <section class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO bullet points written on a notepad" />
+            <!--moved position of class selector class="float-left" just after the img element-->
+            <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="SEO bullet points written on a notepad" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -45,7 +45,8 @@
         </section>
         <!--div tag changed for semantic element section, added alt attribute to improve the accessibility of the website-->
         <section id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Chart displayed on a laptop about online reputation management" />
+            <!--moved position of class selector class="float-right" just after the img element-->
+            <img class="float-right" src="./assets/images/online-reputation-management.jpg" alt="Chart displayed on a laptop about online reputation management" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -53,7 +54,8 @@
         </section>
         <!--div tag changed for semantic element section, added alt attribute to improve the accessibility of the website-->
         <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social media icons and tech devices" />
+            <!--moved position of class selector class="float-left" just after the img element-->
+            <img class="float-left" src="./assets/images/social-media-marketing.jpg" alt="Social media icons and tech devices" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -61,7 +63,7 @@
         </section>
     </main>
     <!--div tag changed for semantic element aside-->
-    <aside class="benefits">
+    <aside>
         <!--div tag changed for semantic element section, added an empty alt attribute because the image is only for decoration-->
         <section class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -88,7 +90,7 @@
         </section>
     </aside>
     <!--div tag changed for semantic element footer-->
-    <footer class="footer">
+    <footer>
         <!--h2 replaced with h4 to follow heading sequential order and optimized the SEO-->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
