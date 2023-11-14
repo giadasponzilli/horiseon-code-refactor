@@ -53,14 +53,10 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-/*Changed name of selector from .hero to figure img and removed link to the image since I now have it in the HTML to improve accessibility through the alt attribute*/
+/*Changed name of selector from .hero to figure img and removed link to the image since I now have it in the HTML to improve accessibility through the alt attribute. I also changed the height and max-width parameters because the image's aspect ratio was distored*/
 figure img {
-    height: 800px;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -71,6 +67,11 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/*moved the p selector just after main instead of having it at the top. It is now closer to the main element where it is used in the HTML*/
+p {
+    font-size: 16px;
 }
 
 /*moved all the selectors of the main element just after the main selector instead of having it after the aside selector or before the main selector (.float-left and .float-right)*/
