@@ -5,6 +5,8 @@
 This Horiseon Code refactor aims to improve the accessibility of the original code, in order to optimised it for search engines.
 All the previous div and span elements have been replaced with HTML semantic elements, and alt attributes have been added to images for improved accessibility. The website's title has been updated with a more descriptive title. Additionally, CSS selectors have been redefined, and the overall CSS structure has been streamlined for increased efficiency.
 
+The code is deployed at https://giadasponzilli.github.io/horiseon-code-refactor/
+
 
 ## Installation
 
