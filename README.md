@@ -7,6 +7,9 @@ All the previous div and span elements have been replaced with HTML semantic ele
 
 The code is deployed at https://giadasponzilli.github.io/horiseon-code-refactor/
 
+## Screenshot
+
+![Alt text](assets/images/screencapture-giadasponzilli-github-io-horiseon-code-refactor-2023-11-28-13_12_24.png)
 
 ## Installation
 
